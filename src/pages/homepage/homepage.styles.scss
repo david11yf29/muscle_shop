@@ -1,0 +1,40 @@
+.homapage {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    padding: 20px 80px;
+    background-color: #FAFAFA;
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 1 1 auto;
+    border: 1px solid black;
+    min-width: 30%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // 上 左右 下
+    margin: 0 7.5px 15px;
+}
+
+.content {
+    height: 90px;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+
+    .title {
+        // font-weight: bold;
+    }
+}
