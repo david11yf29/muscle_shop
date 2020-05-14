@@ -2,12 +2,17 @@ import React from 'react';
 
 import './homepage.styles.scss';
 
-import MenuContainer from '../../components/menu-container/menu-container.components';
-
 const HomePage = () => {
     return (
         <div className="homapage">
-            <MenuContainer />
+            <div className="menu-container">
+                <div className="menu-item">
+                    <div className="content">
+                        <h1 className="title">CHEST</h1>
+                        <span className="subtitle">SHOP NOW</span>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
