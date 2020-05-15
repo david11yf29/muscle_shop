@@ -61,7 +61,8 @@ class MenuContainer extends React.Component {
                             <MenuItem 
                             id={section.id} 
                             title={section.title} 
-                            image={section.image} />
+                            image={section.image}
+                            size={section.size} />
                         )
                     })
                 }
