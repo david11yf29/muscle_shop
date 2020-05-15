@@ -17,32 +17,32 @@ class MenuContainer extends React.Component {
         this.state = {
             sections: [
                 {
-                  title: 'CHEST',
+                  title: 'chest',
                   image: CHEST,
                   id: 1,
                   linkUrl: 'shop/chest'
                 },
                 {
-                  title: 'BACK',
+                  title: 'back',
                   image: BACK,
                   id: 2,
                   linkUrl: 'shop/back'
                 },
                 {
-                  title: 'LEGS',
+                  title: 'legs',
                   image: LEGS,
                   id: 3,
                   linkUrl: 'shop/legs'
                 },
                 {
-                  title: 'SHOULDER',
+                  title: 'shoulder',
                   image: SHOULDER,
                   size: 'large',
                   id: 4,
                   linkUrl: 'shop/shoulder'
                 },
                 {
-                  title: 'CORE',
+                  title: 'core',
                   image: CORE,
                   size: 'large',
                   id: 5,
