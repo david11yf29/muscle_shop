@@ -21,7 +21,7 @@ class ShopPage extends React.Component {
                     this.state.workouts.map((workout) => {
                         return (
                             <WorkoutPreview 
-                                key={workout.id} 
+                                key={workout.id}  
                                 title={workout.title}
                                 items={workout.items} />
                         )

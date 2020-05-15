@@ -6,31 +6,31 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
+          name: 'barbell bench press',
           imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
           price: 25
         },
         {
           id: 2,
-          name: 'Blue Beanie',
+          name: 'dumbbell bench press',
           imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
           price: 18
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
+          name: 'barbell incline bench',
           imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
           price: 35
         },
         {
           id: 4,
-          name: 'Grey Brim',
+          name: 'incline push-ups',
           imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
           price: 25
         },
         {
           id: 5,
-          name: 'Green Beanie',
+          name: 'additional',
           imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
           price: 18
         }
@@ -43,31 +43,31 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Adidas NMD',
+          name: 'pull up',
           imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
           price: 220
         },
         {
           id: 2,
-          name: 'Adidas Yeezy',
+          name: 'rowing',
           imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
           price: 280
         },
         {
           id: 3,
-          name: 'Black Converse',
+          name: 'dumbbell rowing',
           imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
           price: 110
         },
         {
           id: 4,
-          name: 'Nike White AirForce',
+          name: 'barbell rowing',
           imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
           price: 160
         },
         {
           id: 5,
-          name: 'Nike Red High Tops',
+          name: 'additional',
           imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
           price: 160
         }
@@ -80,31 +80,31 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Black Jean Shearling',
+          name: 'squat',
           imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
           price: 125
         },
         {
           id: 2,
-          name: 'Blue Jean Jacket',
+          name: 'deadlift',
           imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
           price: 90
         },
         {
           id: 3,
-          name: 'Grey Jean Jacket',
+          name: 'lounge',
           imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
           price: 90
         },
         {
           id: 4,
-          name: 'Brown Shearling',
+          name: 'leg press',
           imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
           price: 165
         },
         {
           id: 5,
-          name: 'Tan Trench',
+          name: 'additional',
           imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
           price: 185
         }
@@ -117,31 +117,31 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Blue Tanktop',
+          name: 'barbell shoulder press',
           imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
           price: 25
         },
         {
           id: 2,
-          name: 'Floral Blouse',
+          name: 'handstand push-ups',
           imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
           price: 20
         },
         {
           id: 3,
-          name: 'Floral Dress',
+          name: 'dumbbell fly',
           imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
           price: 80
         },
         {
           id: 4,
-          name: 'Red Dots Dress',
+          name: 'lateral raise',
           imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
           price: 80
         },
         {
           id: 5,
-          name: 'Striped Sweater',
+          name: 'additional',
           imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
           price: 45
         }
@@ -154,31 +154,31 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'Camo Down Vest',
+          name: 'L-sit',
           imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
           price: 325
         },
         {
           id: 2,
-          name: 'Floral T-shirt',
+          name: 'russian twist',
           imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
           price: 20
         },
         {
           id: 3,
-          name: 'Black & White Longsleeve',
+          name: 'side plank',
           imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
           price: 25
         },
         {
           id: 4,
-          name: 'Pink T-shirt',
+          name: 'plank',
           imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
           price: 25
         },
         {
           id: 5,
-          name: 'Jean Long Sleeve',
+          name: 'additional',
           imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
           price: 40
         }
