@@ -4,11 +4,11 @@ import './menu-container.styles.scss';
 
 import MenuItem from '../menu-item/menu-item.components';
 
-import CHEST from '../../assets/pics/chest.jpg';
-import BACK from '../../assets/pics/back.jpg';
-import LEGS from '../../assets/pics/legs.jpg';
-import SHOULDER from '../../assets/pics/shoulder.jpg';
-import CORE from '../../assets/pics/core.jpg';
+import CHEST from '../../assets/pics1/chest.jpg';
+import BACK from '../../assets/pics1/back.jpg';
+import LEGS from '../../assets/pics1/legs.jpg';
+import SHOULDER from '../../assets/pics1/shoulder.jpg';
+import CORE from '../../assets/pics1/core.jpg';
 
 class MenuContainer extends React.Component {
     constructor() {

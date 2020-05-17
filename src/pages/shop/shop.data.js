@@ -1,3 +1,17 @@
+import BBP from '../../assets/pics2/barbell_bench_press.jpg';
+import DBP from '../../assets/pics2/dumbbell_bench_press.jpg';
+import BIB from '../../assets/pics2/barbell_incline_bench.jpg';
+import IP from '../../assets/pics2/incline_push-ups.jpg';
+
+import PU from '../../assets/pics2/pull_up.jpg';
+import R from '../../assets/pics2/rowing.jpg';
+import BR from '../../assets/pics2/barbell_rowing.jpg';
+import LP from '../../assets/pics2/lat_pulldown.jpg';
+
+import S from '../../assets/pics2/squat.png';
+import D from '../../assets/pics2/deadlift.jpg';
+import L from '../../assets/pics2/lunge.jpeg';
+
 const SHOP_DATA = [
     {
       id: 1,
@@ -7,25 +21,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'barbell bench press',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
+          imageUrl: BBP,
           price: 25
         },
         {
           id: 2,
           name: 'dumbbell bench press',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
+          imageUrl: DBP,
           price: 18
         },
         {
           id: 3,
           name: 'barbell incline bench',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
+          imageUrl: BIB,
           price: 35
         },
         {
           id: 4,
           name: 'incline push-ups',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
+          imageUrl: IP,
           price: 25
         },
         {
@@ -44,25 +58,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'pull up',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
+          imageUrl: PU,
           price: 220
         },
         {
           id: 2,
           name: 'rowing',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
+          imageUrl: R,
           price: 280
         },
         {
           id: 3,
-          name: 'dumbbell rowing',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
+          name: 'barbell rowing',
+          imageUrl: BR,
           price: 110
         },
         {
           id: 4,
-          name: 'barbell rowing',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
+          name: 'lat pulldown',
+          imageUrl: LP,
           price: 160
         },
         {
@@ -81,19 +95,19 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'squat',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
+          imageUrl: S,
           price: 125
         },
         {
           id: 2,
           name: 'deadlift',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
+          imageUrl: D,
           price: 90
         },
         {
           id: 3,
-          name: 'lounge',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
+          name: 'lunge',
+          imageUrl: L,
           price: 90
         },
         {

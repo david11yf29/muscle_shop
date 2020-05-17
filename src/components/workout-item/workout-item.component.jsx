@@ -9,7 +9,7 @@ const WorkoutItem = (props) => {
                 className="image"
                 style={{
                     backgroundImage: `url(${props.imageUrl})`
-                }}/>
+                }} />
             <div className="workout-footer">
                 <span className="name">{props.name}</span>
                 <span className="price">{props.price}</span>
