@@ -2,6 +2,8 @@ import React from 'react';
 
 import './workout-preview.styles.scss';
 
+import WorkoutItem from '../workout-item/workout-item.component';
+
 const WorkoutPreview = (props) => {
     return (
         <div className="workout-preview">
@@ -12,9 +14,11 @@ const WorkoutPreview = (props) => {
                         .filter((item, idx) => idx < 4)
                         .map((item => {
                             return (
-                                <div key={item.id}>
-                                    {item.name}
-                                </div>
+                                <WorkoutItem 
+                                    key={item.id} 
+                                    imageUrl={item.imageUrl} 
+                                    name={item.name} 
+                                    price={item.price} />
                             )
                         }))
                 }
