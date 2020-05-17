@@ -8,9 +8,20 @@ import R from '../../assets/pics2/rowing.jpg';
 import BR from '../../assets/pics2/barbell_rowing.jpg';
 import LP from '../../assets/pics2/lat_pulldown.jpg';
 
-import S from '../../assets/pics2/squat.png';
-import D from '../../assets/pics2/deadlift.jpg';
-import L from '../../assets/pics2/lunge.jpeg';
+import SQ from '../../assets/pics2/squat.png';
+import DE from '../../assets/pics2/deadlift.jpg';
+import LU from '../../assets/pics2/lunge.jpeg';
+import LEP from '../../assets/pics2/leg_press.jpg';
+
+import BSP from '../../assets/pics2/barbell_shoulder_press.jpg';
+import HP from '../../assets/pics2/handstand_push-ups.jpeg';
+import DF from '../../assets/pics2/dumbbell_fly.jpg';
+import LR from '../../assets/pics2/lateral_raise.jpg';
+
+import LS from '../../assets/pics2/L-sit.jpeg';
+import RT from '../../assets/pics2/russian_twist.jpg';
+import SP from '../../assets/pics2/side_plank.jpg';
+import PL from '../../assets/pics2/plank.jpg';
 
 const SHOP_DATA = [
     {
@@ -95,25 +106,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'squat',
-          imageUrl: S,
+          imageUrl: SQ,
           price: 125
         },
         {
           id: 2,
           name: 'deadlift',
-          imageUrl: D,
+          imageUrl: DE,
           price: 90
         },
         {
           id: 3,
           name: 'lunge',
-          imageUrl: L,
+          imageUrl: LU,
           price: 90
         },
         {
           id: 4,
           name: 'leg press',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
+          imageUrl: LEP,
           price: 165
         },
         {
@@ -132,25 +143,25 @@ const SHOP_DATA = [
         {
           id: 1,
           name: 'barbell shoulder press',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+          imageUrl: BSP,
           price: 25
         },
         {
           id: 2,
           name: 'handstand push-ups',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+          imageUrl: HP,
           price: 20
         },
         {
           id: 3,
           name: 'dumbbell fly',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
+          imageUrl: DF,
           price: 80
         },
         {
           id: 4,
           name: 'lateral raise',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
+          imageUrl: LR,
           price: 80
         },
         {
@@ -168,26 +179,26 @@ const SHOP_DATA = [
       items: [
         {
           id: 1,
-          name: 'L-sit',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
+          name: 'L-Sit',
+          imageUrl: LS,
           price: 325
         },
         {
           id: 2,
           name: 'russian twist',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
+          imageUrl: RT,
           price: 20
         },
         {
           id: 3,
           name: 'side plank',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
+          imageUrl: SP,
           price: 25
         },
         {
           id: 4,
           name: 'plank',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
+          imageUrl: PL,
           price: 25
         },
         {
