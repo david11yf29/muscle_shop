@@ -59,7 +59,7 @@ class MenuContainer extends React.Component {
                     this.state.sections.map(section => {
                         return (
                             <MenuItem 
-                            id={section.id} 
+                            key={section.id} 
                             title={section.title} 
                             image={section.image}
                             size={section.size}
