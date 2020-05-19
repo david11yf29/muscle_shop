@@ -22,14 +22,28 @@ class App extends React.Component {
   unsubscribeFromAuth = null;
 
   componentDidMount() {
-    this.unsubscribeFromAuth = auth.onAuthStateChanged( async (user) => {
-      createUserProfileDocument(user);
-      
-      this.setState({
-        currentUser: user
-      })
+    // 因為有新的 userAuth 所以有 AuthStateChanged 
+    this.unsubscribeFromAuth = auth.onAuthStateChanged( async (userAuth) => {
+      if (userAuth) {
+        const userRef = await createUserProfileDocument(userAuth);
 
-      console.log(user);
+        // .onSnapshot = .get()
+        userRef.onSnapshot(snapShot => {
+          this.setState({
+            currentUser: {
+              id: snapShot.id,
+              ...snapShot.data()
+            }
+            // this.setState 是 async
+          }, () => console.log(this.state))
+        })
+      } else {
+        this.setState({
+          currentUser: userAuth
+        })
+      }
+
+      console.log(userAuth);
     })
   }
 
