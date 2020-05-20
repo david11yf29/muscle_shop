@@ -31,14 +31,17 @@ const Header = (props) => {
                 }
                 <CartIcon />
             </div>
-            <CartDropdown />
+            {
+                props.hidden ? null : <CartDropdown />
+            }
         </div>
     )
 }
 
 const mapStateToProps = (state) => {
     return {
-        currentUser: state.user.currentUser
+        currentUser: state.user.currentUser,
+        hidden: state.cart.hidden
     }
 }
 
