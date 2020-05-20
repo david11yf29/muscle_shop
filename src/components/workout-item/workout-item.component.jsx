@@ -1,5 +1,7 @@
 import React from 'react';
 
+import CustomButton from '../custom-button/custom-button.component';
+
 import './workout-item.styles.scss';
 
 const WorkoutItem = (props) => {
@@ -14,6 +16,7 @@ const WorkoutItem = (props) => {
                 <span className="name">{props.name}</span>
                 <span className="price">{props.price}</span>
             </div>
+            <CustomButton inverted>Add to cart</CustomButton>
         </div>
     )
 }
