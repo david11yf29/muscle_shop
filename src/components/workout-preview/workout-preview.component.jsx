@@ -14,11 +14,7 @@ const WorkoutPreview = (props) => {
                         .filter((item, idx) => idx < 4)
                         .map((item => {
                             return (
-                                <WorkoutItem 
-                                    key={item.id} 
-                                    imageUrl={item.imageUrl} 
-                                    name={item.name} 
-                                    price={item.price} />
+                                <WorkoutItem key={item.id} item={item} />
                             )
                         }))
                 }
