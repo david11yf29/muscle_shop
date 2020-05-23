@@ -6,12 +6,13 @@ import { withRouter } from 'react-router-dom';
 import CustomButton from '../custom-button/custom-button.component';
 import CartItem from '../cart-item/cart-item.component';
 import { selectCartItems } from '../../redux/cart/cart.selectors.js';
+import { toggleCartHidden } from '../../redux/cart/cart.actions.js';
 
 import './cart-dropdown.styles.scss';
 
 const CartDropdown = (props) => {
     // withRouter will create history props
-    // console.log(props);
+    console.log(props);
     return (
         <div className="cart-dropdown">
             <div className="cart-items">
@@ -27,7 +28,10 @@ const CartDropdown = (props) => {
                     )
                 }
             </div>
-            <CustomButton onClick={() => props.history.push('/checkout')}>
+            <CustomButton onClick={() => {
+                props.history.push('/checkout');
+                props.dispatch(toggleCartHidden())
+            }}>
                 GO TO CHECKOUT
             </CustomButton>
         </div>
