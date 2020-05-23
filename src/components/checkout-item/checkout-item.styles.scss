@@ -3,7 +3,11 @@
 //         <img src={props.cartItem.imageUrl} alt="item" />
 //     </div>
 //     <span className="name">{props.cartItem.name}</span>
-//     <span className="quantity">{props.cartItem.quantity}</span>
+//     <span className="quantity">
+    //     <div className="arrow">&#10094;</div>
+    //     <span className="value">{props.cartItem.quantity}</span>
+    //     <div className="arrow">&#10095;</div>
+    // </span>
 //     <span className="price">{props.cartItem.price}</span>
 //     <div className="remove-button">&#10005;</div>
 // </div>
@@ -34,7 +38,15 @@
     }
 
     .quantity {
-        padding-left: 20px;
+        display: flex;
+
+        .arrow {
+            cursor: pointer;
+        }
+
+        .value {
+            margin: 0 10px;
+        }
     }
 
     .remove-button {
