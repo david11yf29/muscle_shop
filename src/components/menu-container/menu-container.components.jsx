@@ -15,11 +15,11 @@ const MenuContainer = (props) => {
               props.sections.map(section => {
                   return (
                       <MenuItem 
-                      key={section.id} 
-                      title={section.title} 
-                      image={section.image}
-                      size={section.size}
-                      linkUrl={section.linkUrl} />
+                        key={section.id} 
+                        title={section.title} 
+                        image={section.image}
+                        size={section.size}
+                        linkUrl={section.linkUrl} />
                   )
               })
           }
