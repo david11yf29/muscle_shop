@@ -5,7 +5,7 @@ const ShopPage = (props) => {
     // console.log(this.state);
     return (
         <div className="shop-page">
-            <CollectionsOverview />
+            <CollectionsOverview /> 
         </div>
     )
 }
