@@ -23,8 +23,8 @@ import RT from '../../assets/pics2/russian_twist.jpg';
 import SP from '../../assets/pics2/side_plank.jpg';
 import PL from '../../assets/pics2/plank.jpg';
 
-const SHOP_DATA = [
-    {
+const SHOP_DATA = {
+    chest: {
       id: 1,
       title: 'chest',
       routeName: 'chest',
@@ -61,7 +61,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    back: {
       id: 2,
       title: 'back',
       routeName: 'back',
@@ -98,7 +98,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    legs: {
       id: 3,
       title: 'legs',
       routeName: 'legs',
@@ -135,7 +135,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    shoulder: {
       id: 4,
       title: 'shoulder',
       routeName: 'shoulder',
@@ -172,7 +172,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    core: {
       id: 5,
       title: 'core',
       routeName: 'core',
@@ -209,6 +209,6 @@ const SHOP_DATA = [
         }
       ]
     }
-  ]
+}
 
 export default SHOP_DATA;
