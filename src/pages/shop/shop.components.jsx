@@ -30,7 +30,7 @@ class ShopPage extends React.Component{
                     render={(props) => <CollectionsOverviewWithSpinner isLoading={isCollectionFetching} {...props} />} />
                 <Route 
                     path={`${match.path}/:collectionId`} 
-                    render={(props) => <CollectionPageWithSpinner isLoading={isCollectionFetching} {...props} />} />
+                    render={(props) => <CollectionPageWithSpinner isLoading={!isCollectionFetching} {...props} />} />
             </div>
         )
     }
